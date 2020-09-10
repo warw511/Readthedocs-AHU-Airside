@@ -41,7 +41,7 @@ When the Economizer is selected there will be a prompt to select *Campus*,
 
 .. image:: _images/dropdowns.jpg
 
-
+.. Note:: The *Campus* must be selected first before the other dropdown can be selected. 
 
 AHU Application Configuration
 *****************************
@@ -58,10 +58,74 @@ configuration Pages:
    :caption: Contents:
 
 
+Point Mapping
+*************
+*Point Mapping* will be the first tab on the left side of the Economizer page. This will be 
+located underneath the main configuration file and the *Default Economizer*. 
 
-Indices and tables
-==================
+.. image:: _images/point_Mapping.jpg
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+Once *Point Mapping* is selected, configurations will show on the center of the screen. 
+
+.. image:: _images/point_Config.jpg
+
+Once the configuration is shown in the center of the screen, the dropdown inputs 
+may be selected to configure. 
+
+All of the *Point Mapping* configuration settings will be drop down inputs that are dependant Upon the 
+main configuration file selected for the page. 
+
+.. image:: _images/point_Populate.jpg
+
+Settings
+********
+
+Settings is the second tab inside of the Ahu configuration Economizer section. 
+Once settings is selected the center section will populate with configurations. 
+
+.. image:: _images/settings_Default.jpg
+
+At the top of the settings page there are two options to choose from: 
+
+.. image:: _images/sensitivity.jpg
+
+**Default**
+
+The settings default page will have preset data available as the settings tab is selected (Default).
+
+When *Default* is selected, on the right side of the page, within the *JSON* code the default data will 
+be displayed: 
+
+.. image:: _images/default_Data.jpg 
+
+Underneath the sensitivity options, there are two configuration options: 
+
+**Autocorrect Flag**
+
+Underneath the default selection, there will be another option of two choices: 
+
+.. image:: _images/auto_Flag.jpg
+
+If *False* is selected, there will only be the options of *Number Required Data* and 
+*Warm-up Time*. More configuration options will appear if *true* is selected. 
+
+.. image:: _images/auto_false.jpg
+
+
+.. image:: _images/auto_True.jpg
+
+
+**Number Required Data**
+
+.. image:: _images/number_Data.jpg 
+
+This selection will be an integer type ranging from 1 to 100. 
+The user may input an integer or use the slider to obtain the number required.
+
+**Warm-up Time**
+
+.. image:: _images/warm_Time.jpg 
+
+This selection will be an integer type ranging from 5 to 30. 
+The user may input an integer or use the slider to obtain the number required.
+

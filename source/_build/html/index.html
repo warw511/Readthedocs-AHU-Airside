@@ -62,6 +62,10 @@ button.</p>
 <p>When the Economizer is selected there will be a prompt to select <em>Campus</em>,
 <em>Building</em>, and <em>Device</em>. These will all be selected as dropdown inputs.</p>
 <img alt="_images/dropdowns.jpg" src="_images/dropdowns.jpg" />
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The <em>Campus</em> must be selected first before the other dropdown can be selected.</p>
+</div>
 </div>
 <div class="section" id="ahu-application-configuration">
 <h2>AHU Application Configuration<a class="headerlink" href="#ahu-application-configuration" title="Permalink to this headline">¶</a></h2>
@@ -75,14 +79,48 @@ configuration Pages:</p>
 <div class="toctree-wrapper compound">
 </div>
 </div>
+<div class="section" id="point-mapping">
+<h2>Point Mapping<a class="headerlink" href="#point-mapping" title="Permalink to this headline">¶</a></h2>
+<p><em>Point Mapping</em> will be the first tab on the left side of the Economizer page. This will be
+located underneath the main configuration file and the <em>Default Economizer</em>.</p>
+<img alt="_images/point_Mapping.jpg" src="_images/point_Mapping.jpg" />
+<p>Once <em>Point Mapping</em> is selected, configurations will show on the center of the screen.</p>
+<img alt="_images/point_Config.jpg" src="_images/point_Config.jpg" />
+<p>Once the configuration is shown in the center of the screen, the dropdown inputs
+may be selected to configure.</p>
+<p>All of the <em>Point Mapping</em> configuration settings will be drop down inputs that are dependant Upon the
+main configuration file selected for the page.</p>
+<img alt="_images/point_Populate.jpg" src="_images/point_Populate.jpg" />
 </div>
-<div class="section" id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
-<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
-<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
-</ul>
+<div class="section" id="settings">
+<h2>Settings<a class="headerlink" href="#settings" title="Permalink to this headline">¶</a></h2>
+<p>Settings is the second tab inside of the Ahu configuration Economizer section.
+Once settings is selected the center section will populate with configurations.</p>
+<img alt="_images/settings_Default.jpg" src="_images/settings_Default.jpg" />
+<p>At the top of the settings page there are two options to choose from:</p>
+<img alt="_images/sensitivity.jpg" src="_images/sensitivity.jpg" />
+<p><strong>Default</strong></p>
+<p>The settings default page will have preset data available as the settings tab is selected (Default).</p>
+<p>When <em>Default</em> is selected, on the right side of the page, within the <em>JSON</em> code the default data will
+be displayed:</p>
+<img alt="_images/default_Data.jpg" src="_images/default_Data.jpg" />
+<p>Underneath the sensitivity options, there are two configuration options:</p>
+<p><strong>Autocorrect Flag</strong></p>
+<p>Underneath the default selection, there will be another option of two choices:</p>
+<img alt="_images/auto_Flag.jpg" src="_images/auto_Flag.jpg" />
+<p>If <em>False</em> is selected, there will only be the options of <em>Number Required Data</em> and
+<em>Warm-up Time</em>. More configuration options will appear if <em>true</em> is selected.</p>
+<img alt="_images/auto_false.jpg" src="_images/auto_false.jpg" />
+<img alt="_images/auto_True.jpg" src="_images/auto_True.jpg" />
+<p><strong>Number Required Data</strong></p>
+<img alt="_images/number_Data.jpg" src="_images/number_Data.jpg" />
+<p>This selection will be an integer type ranging from 1 to 100.
+The user may input an integer or use the slider to obtain the number required.</p>
+<p><strong>Warm-up Time</strong></p>
+<img alt="_images/warm_Time.jpg" src="_images/warm_Time.jpg" />
+<p>This selection will be an integer type ranging from 5 to 30.
+The user may input an integer or use the slider to obtain the number required.</p>
+</div>
 </div>
 
 
@@ -98,9 +136,10 @@ configuration Pages:</p>
 <li><a class="reference internal" href="#importing-master-driver-configuration-store">Importing Master Driver Configuration Store</a></li>
 <li><a class="reference internal" href="#airside">Airside</a></li>
 <li><a class="reference internal" href="#ahu-application-configuration">AHU Application Configuration</a></li>
+<li><a class="reference internal" href="#point-mapping">Point Mapping</a></li>
+<li><a class="reference internal" href="#settings">Settings</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
 </ul>
 
   <div role="note" aria-label="source link">
