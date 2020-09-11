@@ -114,6 +114,47 @@ If *False* is selected, there will only be the options of *Number Required Data*
 
 .. image:: _images/auto_True.jpg
 
+**Supply Air-tempurature Retuning**
+
+.. image:: _images/supply_Return.jpg
+
+This selection will be a floating point variable type ranging from 1.0 to 3.0. 
+The user may input an integer or use the slider to obtain the number required.
+
+**Duct-Static pressure Retuning**
+
+.. image:: _images/duct_Retuning.jpg
+
+This selection will be a floating point variable type ranging from 0.05 to 0.25. 
+The user may input an integer or use the slider to obtain the number required.
+
+**Minimum Duct Static Pressure Setpoint**
+
+.. image:: _images/min_Duct.jpg
+
+This selection will be a floating point variable type ranging from 0.25 to 1.0. 
+The user may input an integer or use the slider to obtain the number required.
+
+**Maximum Duct Static Pressure Setpoint**
+
+.. image:: _images/max_Duct.jpg
+
+This selection will be an  variable type ranging from 0.25 to 3.0 degrees. 
+The user may input an integer or use the slider to obtain the number required.
+
+**Minimum Supply Air-Temperature Setpoint**
+
+.. image:: _images/min_Air.jpg
+
+This selection will be a floating point variable type ranging from 50 to 60. 
+The user may input an integer or use the slider to obtain the number required.
+
+**Maximum Supply Air-Temperature Setpoint**
+
+.. image:: _images/max_Air.jpg
+
+This selection will be a floating point variable type ranging from 55 to 75. 
+The user may input an integer or use the slider to obtain the number required.
 
 **Number Required Data**
 
@@ -129,3 +170,37 @@ The user may input an integer or use the slider to obtain the number required.
 This selection will be an integer type ranging from 5 to 30. 
 The user may input an integer or use the slider to obtain the number required.
 
+Thresholds
+==========
+
+Thresholds is the third tab in the AHU Airside configuration. 
+
+.. image:: _images/thresholds.jpg 
+
+Once the *Threshold* tab is selected, there will be an option in the center of the screen to choose from 
+*Use default threshold (recommended)* or *Customize threshold parameters*. 
+
+**Use Default Threshold**
+
+.. image:: _images/threshold_Option.jpg 
+
+When this option is selected, the default options will be used. The values will be shown inside of the
+*JSON* code on the right side of the screen. 
+
+.. image:: _images/default_Thres.jpg 
+
+**Customize threshold parameters**
+Once *Customize threshold parameters** is selected, there will be two options to customize:
+
+**Supply-Air Temperature Setpoint Deviation Threshold**
+.. image:: _images/supply_Thres.jpg 
+
+This selection will be a integer variable type ranging from 2 to 10. 
+The user may input an integer or use the slider to obtain the number required.
+
+**Static Pressure Setpoint Deviation Threshold**
+
+.. image:: _images/static_Dev.jpg 
+
+This selection will be a integer variable type ranging from 10 to 30. 
+The user may input an integer or use the slider to obtain the number required.

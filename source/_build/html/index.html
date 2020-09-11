@@ -112,6 +112,30 @@ be displayed:</p>
 <em>Warm-up Time</em>. More configuration options will appear if <em>true</em> is selected.</p>
 <img alt="_images/auto_false.jpg" src="_images/auto_false.jpg" />
 <img alt="_images/auto_True.jpg" src="_images/auto_True.jpg" />
+<p><strong>Supply Air-tempurature Retuning</strong></p>
+<img alt="_images/supply_Return.jpg" src="_images/supply_Return.jpg" />
+<p>This selection will be a floating point variable type ranging from 1.0 to 3.0.
+The user may input an integer or use the slider to obtain the number required.</p>
+<p><strong>Duct-Static pressure Retuning</strong></p>
+<img alt="_images/duct_Retuning.jpg" src="_images/duct_Retuning.jpg" />
+<p>This selection will be a floating point variable type ranging from 0.05 to 0.25.
+The user may input an integer or use the slider to obtain the number required.</p>
+<p><strong>Minimum Duct Static Pressure Setpoint</strong></p>
+<img alt="_images/min_Duct.jpg" src="_images/min_Duct.jpg" />
+<p>This selection will be a floating point variable type ranging from 0.25 to 1.0.
+The user may input an integer or use the slider to obtain the number required.</p>
+<p><strong>Maximum Duct Static Pressure Setpoint</strong></p>
+<img alt="_images/max_Duct.jpg" src="_images/max_Duct.jpg" />
+<p>This selection will be an  variable type ranging from 0.25 to 3.0 degrees.
+The user may input an integer or use the slider to obtain the number required.</p>
+<p><strong>Minimum Supply Air-Temperature Setpoint</strong></p>
+<img alt="_images/min_Air.jpg" src="_images/min_Air.jpg" />
+<p>This selection will be a floating point variable type ranging from 50 to 60.
+The user may input an integer or use the slider to obtain the number required.</p>
+<p><strong>Maximum Supply Air-Temperature Setpoint</strong></p>
+<img alt="_images/max_Air.jpg" src="_images/max_Air.jpg" />
+<p>This selection will be a floating point variable type ranging from 55 to 75.
+The user may input an integer or use the slider to obtain the number required.</p>
 <p><strong>Number Required Data</strong></p>
 <img alt="_images/number_Data.jpg" src="_images/number_Data.jpg" />
 <p>This selection will be an integer type ranging from 1 to 100.
@@ -121,6 +145,28 @@ The user may input an integer or use the slider to obtain the number required.</
 <p>This selection will be an integer type ranging from 5 to 30.
 The user may input an integer or use the slider to obtain the number required.</p>
 </div>
+</div>
+<div class="section" id="thresholds">
+<h1>Thresholds<a class="headerlink" href="#thresholds" title="Permalink to this headline">¶</a></h1>
+<p>Thresholds is the third tab in the AHU Airside configuration.</p>
+<img alt="_images/thresholds.jpg" src="_images/thresholds.jpg" />
+<p>Once the <em>Threshold</em> tab is selected, there will be an option in the center of the screen to choose from
+<em>Use default threshold (recommended)</em> or <em>Customize threshold parameters</em>.</p>
+<p><strong>Use Default Threshold</strong></p>
+<img alt="_images/threshold_Option.jpg" src="_images/threshold_Option.jpg" />
+<p>When this option is selected, the default options will be used. The values will be shown inside of the
+<em>JSON</em> code on the right side of the screen.</p>
+<img alt="_images/default_Thres.jpg" src="_images/default_Thres.jpg" />
+<p><strong>Customize threshold parameters</strong>
+Once <em>Customize threshold parameters*</em> is selected, there will be two options to customize:</p>
+<p><strong>Supply-Air Temperature Setpoint Deviation Threshold</strong>
+.. image:: _images/supply_Thres.jpg</p>
+<p>This selection will be a integer variable type ranging from 2 to 10.
+The user may input an integer or use the slider to obtain the number required.</p>
+<p><strong>Static Pressure Setpoint Deviation Threshold</strong></p>
+<img alt="_images/static_Dev.jpg" src="_images/static_Dev.jpg" />
+<p>This selection will be a integer variable type ranging from 10 to 30.
+The user may input an integer or use the slider to obtain the number required.</p>
 </div>
 
 
@@ -140,6 +186,7 @@ The user may input an integer or use the slider to obtain the number required.</
 <li><a class="reference internal" href="#settings">Settings</a></li>
 </ul>
 </li>
+<li><a class="reference internal" href="#thresholds">Thresholds</a></li>
 </ul>
 
   <div role="note" aria-label="source link">
