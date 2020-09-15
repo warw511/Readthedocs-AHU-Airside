@@ -18,7 +18,6 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Ahu Airside Userguide'
-copyright = '2020, Caleb Warwick'
 author = 'Caleb Warwick'
 
 
