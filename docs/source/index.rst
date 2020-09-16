@@ -16,7 +16,7 @@ Once the user has selected the Master Driver Configuration Store, this homepage 
 
 .. Warning:: Uploading a new Master Driver Configuration Store will remove all current data in the application.
 
-.. image:: _images/master_Driver.JPG
+.. image:: _images/master_Driver.jpg
 
 After a *Master Driver* File is uploaded, there will be two new buttons that will appear 
 in green below. 
